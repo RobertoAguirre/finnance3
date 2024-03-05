@@ -30,17 +30,68 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/template/css/bootstrap.min.css",
+              "src/assets/template/vendors/themefy_icon/themify-icons.css",
+              "src/assets/template/vendors/swiper_slider/css/swiper.min.css",
+              "src/assets/template/vendors/select2/css/select2.min.css",
+              "src/assets/template/vendors/niceselect/css/nice-select.css",
+              "src/assets/template/vendors/owl_carousel/css/owl.carousel.css",
+              "src/assets/template/vendors/gijgo/gijgo.min.css",
+              "src/assets/template/vendors/font_awesome/css/all.min.css",
+              "src/assets/template/vendors/tagsinput/tagsinput.css",
+              "src/assets/template/vendors/datatable/css/jquery.dataTables.min.css",
+              "src/assets/template/vendors/datatable/css/responsive.dataTables.min.css",
+              "src/assets/template/vendors/datatable/css/buttons.dataTables.min.css",
+              "src/assets/template/vendors/text_editor/summernote-bs4.css",
+              "src/assets/template/vendors/morris/morris.css",
+              "src/assets/template/vendors/material_icon/material-icons.css",
+              "src/assets/template/css/metisMenu.css",
+              "src/assets/template/css/style.css",
+              "src/assets/template/css/colors/default.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/template/js/jquery-3.4.1.min.js",
+              "src/assets/template/js/popper.min.js",
+              "src/assets/template/js/bootstrap.min.js",
+              "src/assets/template/js/metisMenu.js",
+              "src/assets/template/vendors/count_up/jquery.waypoints.min.js",
+              "src/assets/template/vendors/chartlist/Chart.min.js",
+              "src/assets/template/vendors/count_up/jquery.counterup.min.js",
+              "src/assets/template/vendors/swiper_slider/js/swiper.min.js",
+              "src/assets/template/vendors/niceselect/js/jquery.nice-select.min.js",
+              "src/assets/template/vendors/owl_carousel/js/owl.carousel.min.js",
+              "src/assets/template/vendors/gijgo/gijgo.min.js",
+              "src/assets/template/vendors/datatable/js/jquery.dataTables.min.js",
+              "src/assets/template/vendors/datatable/js/dataTables.responsive.min.js",
+              "src/assets/template/vendors/datatable/js/dataTables.buttons.min.js",
+              "src/assets/template/vendors/datatable/js/buttons.flash.min.js",
+              "src/assets/template/vendors/datatable/js/jszip.min.js",
+              "src/assets/template/vendors/datatable/js/pdfmake.min.js",
+              "src/assets/template/vendors/datatable/js/vfs_fonts.js",
+              "src/assets/template/vendors/datatable/js/buttons.html5.min.js",
+              "src/assets/template/vendors/datatable/js/buttons.print.min.js",
+              "src/assets/template/js/chart.min.js",
+              "src/assets/template/vendors/progressbar/jquery.barfiller.js",
+              "src/assets/template/vendors/tagsinput/tagsinput.js",
+              "src/assets/template/vendors/text_editor/summernote-bs4.js",
+              "src/assets/template/vendors/apex_chart/apexcharts.js",
+              "src/assets/template/js/custom.js",
+              "src/assets/template/js/active_chart.js",
+              "src/assets/template/vendors/apex_chart/radial_active.js",
+              "src/assets/template/vendors/apex_chart/stackbar.js",
+              "src/assets/template/vendors/apex_chart/area_chart.js",
+              "src/assets/template/vendors/apex_chart/bar_active_1.js",
+              "src/assets/template/vendors/chartjs/chartjs_active.js"
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "8mb",
+                  "maximumError": "10mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -97,5 +148,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
